@@ -1,0 +1,11 @@
+[package]
+name = "cargo-inspect"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cargo_metadata = "0.23.0"
+clap = { version = "4.5.49", features = ["derive"] }
+colored = "3.0.0"
+syn = { version = "2.0.106", features = ["full"] }
+walkdir = "2.5.0"
