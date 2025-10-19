@@ -1,6 +1,7 @@
 mod cli;
 mod commands;
 
+use clap::Parser;
 use cli::Cli;
 use commands::{deps , unsafe_check};
 
